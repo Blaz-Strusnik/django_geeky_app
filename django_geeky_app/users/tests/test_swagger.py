@@ -1,6 +1,8 @@
 import pytest
 from django.urls import reverse
 
+# Test
+
 
 def test_swagger_accessible_by_admin(admin_client):
     url = reverse("api-docs")
